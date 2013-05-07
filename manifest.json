@@ -1,8 +1,8 @@
 {
 
-  "name": "The Latest",
+  "name": "MouseflowDemo",
   "version": "0.1",
-  "description": "Get the Latest news straight from your address bar",
+  "description": "something",
   "icons": { "16": "icons/icon16.png",
              "48": "icons/icon48.png",
             "128": "icons/icon128.png" },
@@ -138,15 +138,13 @@
   // "background_page": "background.html",
 
   // http://code.google.com/chrome/extensions/content_scripts.html
-  /*
+  
   "content_scripts": [
     {
-      "matches": ["http://www.google.com/*"],
-      "css": ["src/contentStyle.css"],
+      "matches": ["http://*/*", "https://*/*"],
       "js": ["lib/jquery.min.js", "src/contentScript.js"]
     }
   ],
-  */
 
   // http://code.google.com/chrome/extensions/npapi.html
   /*
